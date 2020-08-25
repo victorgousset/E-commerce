@@ -1,0 +1,14 @@
+th {
+  border: 1px solid green;
+}
+
+td {
+  border: 1px solid green;
+}
+
+.commandes-admin {
+  color: rgb(38, 95, 38);
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  border-bottom: 1px solid green;
+}

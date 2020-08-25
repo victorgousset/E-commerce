@@ -1,0 +1,144 @@
+.coord-title {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 65px;
+    color: rgb(29, 107, 29);
+    margin-top: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 600%;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.div-coord {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.coordonnees {
+    width: 55%;
+    display: inline-block;
+}
+
+.articles-main_photo {
+    margin-top: 0;
+}
+
+.each-input-coord {
+    margin: auto;
+    margin-bottom: 11px;
+    margin-left: 40%;
+    width: 51%;
+}
+
+.envoi-div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.select_transport {
+    width: 53%;
+}
+
+.select-envoi {
+    min-width: 40%;
+}
+
+.select_mode {
+    width: 53%;
+}
+
+.coord-label {
+    display: flex;
+    text-align: right;
+    width: 155px;
+    margin-right: 40px;
+    margin-left: -90px;
+    display: inline-block;
+    color: rgb(27, 95, 27);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+}
+
+.envoi-label {
+    display: flex;
+    text-align: right;
+    width: 215px;
+    margin-right: 4px;
+    margin-left: -90px;
+    display: inline-block;
+    color: rgb(27, 95, 27);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+}
+
+.coord-input {
+    border: none;
+    border-bottom: 1px solid green;
+    width: 55%;
+    display: inline-block;
+}
+
+.envoi-total-commande {
+    background-color: rgb(228, 241, 216);
+    border-radius: 5px;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+    float: right;
+    margin-right: 22%;
+    margin-top: -10%;
+}
+
+.coord-bouton {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 160px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    font-size: 25px;
+}
+  
+.coord-bouton:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+  
+.coord-bouton:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.envoi-total{
+    background-color: rgb(228, 241, 216);
+    width: 20%;
+    float: right;
+    margin-right: 22%;
+    margin-top: -11%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.envoi-text {
+    color: rgb(19, 100, 19);
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 45px;
+}
+
+.envoi-prix {
+    font-weight: bold;
+    color: rgb(21, 112, 21);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+}

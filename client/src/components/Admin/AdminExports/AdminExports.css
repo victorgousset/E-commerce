@@ -1,0 +1,54 @@
+.export-div {
+    width: 80%;
+    margin: auto;
+}
+
+.export-title {
+    color: green;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(26, 99, 26);
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.export-p {
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(29, 105, 29);
+    text-align: center;
+}
+
+.admin-export {
+    text-align: center;
+    margin: auto;
+    width: 300px;
+}
+
+.export-select {
+    text-align: center;
+}
+
+.bouton-export {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 160px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    font-size: 20px;
+}
+  
+.bouton-export:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+  
+.bouton-export:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}

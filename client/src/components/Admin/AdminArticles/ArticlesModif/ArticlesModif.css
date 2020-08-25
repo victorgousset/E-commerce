@@ -1,0 +1,64 @@
+.admin_modif {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.titre-modif {
+  color: rgb(33, 109, 33);
+  border-bottom: 1px solid green;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+}
+
+.input-admin  {
+  background-color:transparent;
+  border: 0px;
+  border-bottom: 1px solid green;
+  width: 250px;
+}
+
+.modif_article {
+  padding: 12px;
+}
+
+tr {
+  border-bottom: 2px solid rgb(169, 194, 160);
+}
+
+.modif_article {
+  margin-left: 10%;
+}
+
+.table-modif_admin {
+  margin-left: 20%;
+  background-color: rgb(230, 251, 230);
+}
+
+.bouton-modif-admin {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 160px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    font-size: 18px;
+}
+  
+.bouton-modif-admin:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+  
+.bouton-modif-admin:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}

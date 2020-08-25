@@ -1,0 +1,105 @@
+.cart-articles {
+  margin-left: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.dropdown-menu-right {
+  border: 1px solid rgb(224, 250, 224);
+  font-family: 'Oxygen', sans-serif;
+}
+
+.dp-key-article {
+  margin-bottom: 15px;
+  border-bottom: 1px solid green;
+}
+
+.dp-article {
+  width: 65%;
+}
+
+.dp-article {
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.dp-article:hover {
+  background-color: rgb(245, 255, 245);
+}
+
+.dp-article a {
+  color: rgb(54, 133, 54);
+  transition: 0.3s;
+}
+
+.dp-article a:hover {
+  color: rgb(116, 177, 116);
+  text-decoration: none;
+}
+
+.dp-quantite {
+  color: rgb(119, 139, 119);
+  width: 15%;
+  display: inline-block;
+}
+
+.dp-caracteristiques {
+  color: rgb(23, 75, 23);
+  text-align: right;
+}
+
+.p-total {
+  font-weight: bold;
+  color: rgb(37, 107, 37);
+}
+
+.p-prix {
+  color: rgb(56, 145, 29);
+  font-weight: bold;
+}
+
+.panier-bouton {
+  transition: 0.3;
+  background-color: rgb(200, 230, 175);;
+  color: rgb(56, 116, 56);
+  border: 1px solid green;
+  border-radius: 4px;
+  color: green;
+  width: 170px;
+  display: block;
+  margin: auto;
+  padding: 8px;
+}
+
+.panier-bouton:hover {
+  background-color: rgb(104, 172, 87);
+  color: rgb(226, 235, 193);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.panier-bouton a:hover {
+  text-decoration: none;
+}
+
+.panier-bouton:active {
+  background-color: rgb(73, 110, 64);
+  color: rgb(226, 235, 193);
+  box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.remove-div {
+  width: 10%;
+  display: inline-block;
+  float: right;
+}
+
+.remove {
+  cursor: pointer;
+  color: rgb(211, 43, 43);
+  font-size: 20px;
+  font-weight: bold;
+  width:100%;
+  display: inline-block
+}

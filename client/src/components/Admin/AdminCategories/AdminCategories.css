@@ -1,0 +1,49 @@
+.admin-categorie {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.admin-table_categories {
+  background-color: rgb(240, 245, 238);
+  text-align: center;
+}
+
+.admin-table_tr {
+  color: rgb(20, 56, 20);
+}
+
+.admin-table_td_id {
+  width: 25px;
+  color: rgb(20, 56, 20);
+}
+
+.admin-table_td {
+  color: rgb(29, 87, 29);
+}
+
+.admin-table_td:hover {
+  background-color: rgb(240, 245, 238);
+}
+
+input {
+  color: rgb(15, 73, 15);
+}
+
+.input-name {
+  border: none;
+  border-bottom: 1px solid green;
+}
+
+.admin-categories_title {
+  border-bottom: 1px solid green;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+  color: rgb(22, 95, 22);
+  width: 90%;
+}
+
+.div_ajout_nom {
+  font-family: 'Oxygen', sans-serif;
+  margin-top: 30px;
+}

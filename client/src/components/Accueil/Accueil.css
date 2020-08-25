@@ -1,0 +1,119 @@
+.vertical-line{
+    border-left: 2px solid #000;
+    display: inline-block;
+    height: 130px;
+    position: relative;
+    left: 15%;
+}
+
+.carre{
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: #0159b3;
+    text-align: center;
+}
+
+.containerSlide {
+    width: 68%;
+    margin: auto;
+    margin-top: 45px;
+    display: none;
+}
+
+.each-slide {
+    text-align: center;
+    width: 100%;
+}
+
+.each-img {
+    width: 100%;
+}
+
+.containerSlide img {
+    height: 370px;
+
+}
+
+.accueil {
+    width: 80%;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.accueil-article {
+    width: 25%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 2%;
+    margin-left: 4px;
+    min-height: 720px;
+    max-height: 720px;
+    vertical-align: top;
+}
+
+.accueil-avant {
+    width: 25%;
+    display: inline-block;
+    margin-right: 2%;
+    vertical-align: top;
+    margin-top: 5px;
+    min-height: 720px;
+    max-height: 720px;
+}
+
+.accueil-categorie {
+    width: 45%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 4px;
+    vertical-align: top;
+    float: right;
+    min-height: 720px;
+    max-height: 720px;
+}
+
+.acceuil-bienvenue {
+    background-color: rgb(232, 255, 230);
+    width: 100%;
+    padding-top: 55px;
+    padding-bottom: 52px;
+    margin-bottom: 85px;
+}
+
+.bienvenue-title {
+    color: rgb(59, 109, 59);
+    font-size: 50px;
+    width: 13%;
+    margin-left: 300px;
+    padding-right: 320px;
+    display: inline-block;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.bienvenue-texte {
+    color: rgb(59, 109, 59);
+    font-size: 25px; 
+    padding-left: 5px;
+    width: 37%;
+    display: inline-block;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.photo-engag {
+    width: 27%;
+    margin-left: 20px;
+}
+
+.photo-engagements {
+    width: 68%;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.video{
+    position: relative;
+    text-align: center;
+    margin-bottom: 95px;
+}

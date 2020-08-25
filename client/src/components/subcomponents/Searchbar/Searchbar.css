@@ -1,0 +1,25 @@
+.foot {
+    display: none;
+}
+
+.div_searchbar {
+    text-align: center;
+}
+
+.value_search {
+    color: rgb(14, 109, 14);
+    width: 60%;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 23px;
+    border: none;
+    border-bottom: 1px solid green;
+}
+
+.result-text {
+    color: rgb(12, 75, 12);
+    margin-top: 24px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}

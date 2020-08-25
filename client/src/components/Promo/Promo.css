@@ -1,0 +1,177 @@
+.articles-main {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.articles-main_photo {
+    margin-top: 0;
+}
+
+.breadcrum {
+}
+
+.breadcrumb li {
+    margin-right: 1%;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.breadcrumb li a {
+    color: white;
+    background-color: rgb(110, 155, 106);
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.produits-contenu {
+    width: 90%;
+    margin: auto;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.sortby-container {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.sortby-label {
+    color: rgb(52, 90, 52);
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.sortby-select {
+    color: rgb(45, 85, 45);
+    border: 1px solid green;
+    padding: 7px;
+    border-radius: 4px;
+    background-color: rgb(242, 251, 242);
+    cursor: pointer;
+}
+
+.article-main_title {
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 600%;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.articles-container {
+    width: 75%;
+    display: inline-block;
+    border-left: 1px green solid;
+}
+
+.articles {
+    width: 12em;
+    text-align: center;
+    display: inline-block;
+    margin-left:1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    padding: 5px;
+}   
+
+.article {
+    padding: 15px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.article:hover {
+    box-shadow:0 0 1em rgb(187, 196, 187);
+}
+
+.card {
+    border: none;
+}
+
+.articles-title {
+    color: rgb(39, 97, 39);
+    font-size: 19px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid green;
+}
+
+.articles-price {
+    color: rgb(116, 158, 116);
+}
+
+.details {
+    color: rgb(15, 82, 15);
+    transition: 0.4s;
+}
+
+.details:hover {
+    color: rgb(74, 110, 74);
+    text-decoration: none;
+}
+
+.ajout-panier {
+    background-color: rgb(234, 241, 227);
+    padding: 7px;
+    border: 1px solid green;
+    border-radius: 5px;
+    transition : 0.4s;
+}
+
+.ajout-panier:hover {
+    background-color: rgb(136, 180, 118);
+    color: rgb(227, 236, 191);
+}
+
+.ajout-panier:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+
+.carousel {
+    background-color: rgb(255, 255, 255);
+}
+
+.slide {
+    background-color: rgb(255, 255, 255);
+}
+
+.slide .carousel-indicators li{
+    background-color: antiquewhite;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+}
+
+.slide .carousel-indicators .active {
+    /* background-color: rgb(255, 21, 21); */
+    height: 13px;
+    width: 13px;
+}
+
+.produit-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.produits-carousel .carousel-indicators {
+    margin-bottom: 0px;
+}
+
+.produits-carousel .carousel-indicators li {
+    background-color: rgb(187, 233, 149);
+}
+
+
+.produits-carousel .carousel-indicators .active {
+    background-color: rgb(31, 100, 10);
+}

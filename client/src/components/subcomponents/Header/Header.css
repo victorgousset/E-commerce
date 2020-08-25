@@ -1,0 +1,290 @@
+.navbar  {
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 122, 0);
+  height: 140px;
+  background-color: rgb(252, 255, 250);
+}
+
+.logo {
+  margin-left: 3%;
+  margin-right: 13px;
+  width: 100px;
+  height: 100px;
+}
+
+.navbar .nav-title {
+  font-size: 63px;
+}
+
+.title-link {
+  text-decoration: none;
+  color: rgb(58, 126, 37);
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.title-link:hover {
+  text-decoration: none;
+  color: rgb(65, 153, 38);
+}
+
+.navbar .nav-slogan {
+  color: rgb(122, 172, 107);
+  margin-left: -12px;
+  width: 320px;
+  margin-top: 34px;
+  font-size: 24px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(79, 93, 63);
+  margin-top: 48px;
+  margin-left: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.navbar-light .nav-link:hover {
+  color: rgb(177, 255, 75);
+  background-color: rgb(251, 253, 249);
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.navbar-nav {
+  font-size: 22px;
+  margin-top: 70px;
+  margin-left: 38%;
+}
+
+.navbar-nav a {
+  color: rgb(22, 78, 22);
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-nav a:hover {
+  color: rgb(65, 153, 38);
+}
+
+.navbar-nav a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(65, 153, 38);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-nav a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.animation-bar {
+  margin-right: 25px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.nav-container {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 10%;
+}
+
+.banner-container {
+  position: absolute;
+  left: 7%;
+  top: 60px;
+}
+
+.search-bar_accueil{
+  width:60px;
+  margin-right: 7px;
+}
+
+.card-container {
+  background-color: rgb(196, 222, 135);
+  text-align: center;
+  color: rgb(3, 82, 3);
+  border: rgb(23, 43, 5) solid 1px;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-left: 30px;
+}
+
+.myaccount-container {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 90px;
+}
+
+.login-link {
+  background-color: rgb(196, 222, 135);
+  color: rgb(0, 92, 0);
+  border-radius: 6px;
+  margin-bottom: 2px;
+  border: 1px solid rgb(13, 90, 3);
+}
+
+.login-link:hover {
+  background-color: rgb(202, 231, 135);
+  color: rgb(0, 92, 0);
+  border: 1px solid rgb(13, 90, 3);
+}
+
+.login-link:active {
+  background-color: rgb(70, 124, 33);
+  color: rgb(161, 204, 161);
+  border: 1px solid rgb(13, 90, 3);
+}
+
+.register-link {
+  background-color: rgb(35, 73, 30);
+  color: rgb(134, 199, 134);
+  border-radius: 6px;
+  margin-bottom: 2px;
+  border: 1px solid rgb(61, 204, 42);
+}
+
+.register-link:hover {
+  background-color: rgb(98, 155, 91);
+  color: rgb(26, 71, 26);
+  border: 1px solid rgb(61, 204, 42);
+}
+
+.register-link:active {
+  background-color: rgb(40, 80, 35);
+  color: rgb(145, 194, 145);
+  border: 1px solid rgb(61, 204, 42);
+}
+
+.banner-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.myaccount-logo {
+  width: 100px;
+  height: 100px;
+  margin-right: -8px;
+}
+
+.card-logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.admin-logo {
+  width: 100px;
+  height: 100px;
+  border-right: black solid 1px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.account-image {
+  width: 30px;
+}
+
+#dropdown-basic-button {
+  background-color: transparent;
+  color: rgb(47, 82, 31);
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  border: 1px green solid;
+  padding: 8px;
+  text-align: center;
+}
+
+.drop-compte {
+  transition: 0.5s;
+}
+
+.drop-compte a {
+  color: green;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.drop-compte a:hover {
+  color: rgb(26, 87, 26);
+  text-decoration: none;
+}
+
+.drop-compte:hover {
+  background-color: rgb(218, 247, 218);
+  border-radius: 20px;
+}
+
+.drop-logout {
+  transition: 0.5s;
+  color: green;
+}
+
+.drop-logout:hover {
+  color: rgb(34, 98, 34);
+  background-color: rgb(151, 214, 140);
+  border-radius: 20px;
+}
+
+#dropdown-menu-align-right {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: rgb(47, 82, 31);
+}
+
+.hidden { 
+  display:none; 
+}
+
+.Input_searchbar {
+  position: absolute;
+  z-index: 100;
+  margin-top: 60px;
+  margin-left: 42%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-header {
+  position: relative;
+  z-index: 3;
+}
+
+.result_search {
+  position: absolute;
+  z-index: 1000;
+  width: 370px;
+  margin-top: 98px;
+  margin-left: 42%;
+  background-color: white;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+}
+
+.search-by {
+  position: absolute;
+  z-index: 1000;
+  margin-top: 61px;
+  margin-left: 62.4%;
+}
+ 

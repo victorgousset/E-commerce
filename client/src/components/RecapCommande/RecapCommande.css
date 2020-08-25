@@ -1,0 +1,17 @@
+.recap-main_title {
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    color: rgb(68, 68, 68);
+    text-align: center;
+    font-size: 600%;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.recap-p {
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(14, 90, 14);
+    text-align: center;
+    margin-top: 29px;
+}

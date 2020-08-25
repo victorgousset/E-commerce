@@ -1,0 +1,42 @@
+.carousel {
+    background-color: hotpink;
+}
+
+.accueil-carousel .carousel-indicators li {
+    border-radius: 35px;
+}
+
+.accueil-carousel .carousel-indicators .active {
+    background-color: rgb(31, 100, 10);
+}
+
+.slide {
+    background-color: indianred;
+}
+
+.slide-title {
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(54, 163, 54);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(76, 105, 65);
+}
+
+.slide-desc {
+    color: white;
+    font-size: 25px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-control-next-icon {
+    display: none;
+}
+
+.accueil-carousel .carousel-indicators .active {
+    background-color: rgb(31, 100, 10);
+}

@@ -1,0 +1,150 @@
+admin-article {
+  margin: auto;
+  width: 90%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.admin-table_article {
+  background-color: rgb(240, 245, 238);
+  text-align: center;
+  margin-left: -20%;
+  width: 1px;
+}
+
+input {
+  color: rgb(15, 73, 15);
+}
+
+.admin-table_tr {
+  color: rgb(20, 56, 20);
+  border: none;
+}
+
+.admin-table_td_id {
+  color: rgb(20, 56, 20);
+  width: 500px;
+  height: 100px;
+}
+
+.admin-table_td {
+  background-color: white;
+  transition: 0.3s;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+.admin-table_td:hover {
+  background-color: rgb(240, 245, 238);
+}
+
+.action-icons {
+  cursor: pointer;
+  color: rgb(4, 128, 0);
+}
+
+.admin-commander {
+  color: rgb(8, 85, 8);
+}
+
+.ajout_article {
+  justify-content: center;
+}
+
+.admin-article_title {
+  border-bottom: 1px solid green;
+  color: rgb(22, 95, 22);
+  width: 70%;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+}
+
+.admin-article_title_h4 {
+  color: rgb(36, 97, 36);
+  margin-bottom: 26px;
+  margin-top: 14px;
+}
+
+.admin-label {
+  color: rgb(99, 134, 99);
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin-right: 7px;
+}  
+
+select {
+  color: rgb(45, 85, 45);
+  border: 1px solid green;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: rgb(242, 251, 242);
+  cursor: pointer;
+}
+
+.admin-input_image {
+  background-color: rgb(242, 251, 242);
+  color: rgb(45, 85, 45);
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-button {
+  background-color: rgb(200, 230, 175);;
+  color: rgb(56, 116, 56);
+  border: 1px solid green;
+  border-radius: 4px;
+  color: green;
+  width: 90px;
+  display: block;
+  margin: auto;
+  padding: 8px;
+}
+
+.admin-button:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+
+.admin-button:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.carousel-control-prev {
+  display: none;
+}
+
+.carousel-control-next {
+  display: none;
+}
+
+.adminp-carousel .carousel-indicators {
+  bottom: -50px;
+}
+
+.adminp-carousel .carousel-indicators li {
+  background-color: rgb(187, 233, 149);
+}
+
+
+.adminp-carousel .carousel-indicators .active {
+  background-color: rgb(31, 100, 10);
+}
+
+.adminp-carousel {
+  margin-top: 20px;;
+}
+
+.table-img{
+  max-width: 100px;
+  height: 100px;
+}
+
+.descriptionReduce {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100px
+}

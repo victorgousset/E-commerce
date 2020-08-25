@@ -1,0 +1,15 @@
+.article-title {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.categories-main_title {
+    font-family: 'Reenie Beanie', cursive;
+    color: rgb(41, 107, 41);
+    font-size: 45px;
+}
+
+.details-categorie:hover {
+    text-decoration: none;
+}

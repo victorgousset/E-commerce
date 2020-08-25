@@ -1,0 +1,29 @@
+.commandes-client {
+    color: rgb(19, 98, 19);
+    font-size: 70px;
+    border-bottom: 1px solid green;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.btn-facture {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 90px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+}
+      
+.btn-facture:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+      
+.btn-facture:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}

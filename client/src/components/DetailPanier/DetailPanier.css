@@ -1,0 +1,207 @@
+.panier-total {
+    width: 100%;
+}
+
+.panier-titre {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 65px;
+    color: rgb(29, 107, 29);
+    margin-top: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 600%;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.div-prix-total {
+    background-color: rgb(228, 241, 216);
+    width: 20%;
+    float: right;
+    margin-top: -11%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.prix-total-title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(27, 95, 27);
+}
+
+.prix-total-nombre {
+    font-size: 28px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: rgb(38, 90, 38);
+}
+
+.panier-button-full {
+    background-color: rgb(177, 223, 140);;
+    color: rgb(32, 121, 32);
+    border: 1px solid green;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 4px;
+    width: 79%;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    font-size: 21px;
+    font-weight: bold;
+}
+  
+.panier-button-full:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+  
+.panier-button-full:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.card-panier-tout {
+    border-bottom: 1px solid green;
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+
+.panier-img {
+    width: 22%;
+    float: left;
+}
+
+.panier-title {
+    color: rgb(18, 90, 18);
+    left: 90px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.panier-price {
+    color: rgb(23, 100, 23);
+    float: right;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.panier-format {
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(129, 160, 108);
+}
+
+.panier-unit {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: rgb(84, 119, 60);
+}
+
+.panier-quantite {
+    color: rgb(84, 119, 60);
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.panier-modif {
+    float: right;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+.action-icons-plus {
+    width: 10%;
+    float: right;
+    text-align: right;
+    font-size: 23px;
+    cursor: pointer;
+    color:rgb(115, 158, 46);
+}
+
+.action-icons-moins {
+    width: 10%;
+    float: right;
+    font-size: 21px;
+    margin-top: 2px;
+    cursor: pointer;
+    color:rgb(115, 158, 46);
+}
+
+.action-icons-delete {
+    width: 30%;
+    float: right;
+    text-align: center;
+    font-size: 21px;
+    cursor: pointer;
+    color: rgb(226, 127, 87);
+}
+
+.modal-close {
+    background-color: rgb(232, 253, 224);
+    border-bottom: 1px solid green;
+}
+
+.modal-title {
+    color: rgb(52, 90, 52);
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.modal-connect {
+    background-color: rgb(200, 230, 175);
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 9px;
+}
+  
+.modal-connect:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+  
+.modal-connect:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.modal-guest {
+    background-color: rgb(56, 116, 56);
+    color: rgb(200, 230, 175);
+    border: 1px solid green;
+    border-radius: 4px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 9px;
+    margin-bottom: 19px;
+}
+        
+.modal-guest:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+        
+.modal-guest:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.s-barre {
+    color: rgb(226, 76, 76);
+    margin-left: 10px;
+}

@@ -1,0 +1,75 @@
+.connection_div {
+    width: 100%;
+}
+
+.connection_title {
+    color: rgb(14, 99, 14);
+}
+
+.form-input {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Cemail {
+    border: none;
+    border-bottom: 1px solid green;
+    width: 20%;
+}
+
+.Cpass {
+    border: none;
+    border-bottom: 1px solid green;
+    width: 20%;
+}
+
+.submit-Connection {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 170px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+}
+
+.submit-Connection:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+
+.submit-Connection:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.panel-body{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-top: rgb(70, 124, 33) 2px solid;
+    border-left: rgb(70, 124, 33) 2px solid;
+    border-right: rgb(70, 124, 33) 2px solid;
+    border-radius: 45%;
+    font-family: 'Architects Daughter';
+}
+
+.modalBtn {
+    border-radius: 45%;
+    background-color:rgba(96, 204, 23, 0.554);
+    margin-left: 33%;
+    margin-right: 33%;
+    color: white;
+    font-family: 'Architects Daughter';
+}
+
+.p-sub{
+    margin-top: 22px;
+}
+
+.close {
+    display: none;
+}

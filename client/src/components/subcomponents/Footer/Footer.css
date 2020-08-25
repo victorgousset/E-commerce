@@ -1,0 +1,30 @@
+.Nav-Footer {
+    background-color: rgb(222, 248, 205);
+    bottom: 0;
+    border-top : 2px solid green;
+}
+
+.footer {
+    width: 120px;
+    margin-left: 10%;
+}
+
+.footer-link {
+    display: inline-block;
+    color: rgb(123, 148, 77);
+}
+
+.footer_compo {
+    padding-left:120px;
+}
+
+.footer-insta {
+    margin-left: 60%;
+}
+
+.footer_insta {
+    width: 40px;
+    height: 40px;
+    background-color: darkcyan;
+    margin-left: 10%;
+}

@@ -1,0 +1,327 @@
+.compte-title {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 65px;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 600%;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.photo-main-compte {
+    margin-bottom: 25px;
+}
+
+.profil-adresse {
+    background-color: rgb(228, 241, 216);
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 77px;
+    display: inline-block;
+    vertical-align: top;
+    height: 650px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.compte-soustitre {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+    color: rgb(23, 100, 23);
+}
+
+.compte-info {
+    background-color: rgb(228, 241, 216);
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 48%;
+    float: right;
+    margin-right: 77px;
+    display: inline-block;
+}
+
+.compte-inline_un {
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+
+.compte-inline_deux {
+    width: 50%;
+    float: right;
+    display: inline-block;
+}
+
+.compte-mail-div {
+    display: inline-block;
+    float: left;
+    margin-top: 19px;
+}
+
+.compte-info-titre {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+    color: rgb(92, 116, 66);
+}
+
+.profil-compte-abo {
+    text-align: bottom;
+    text-align: center;
+}
+
+.form-input-info {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: 5px;
+}
+
+.div_modif_input {
+    //margin-left: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.compte-info-div {
+    text-align: right;
+    border-right: 1px solid green;
+    margin-right: 40px;
+}
+
+.compte-label {
+    color: rgb(99, 134, 99);
+    display: inline-block;
+    width: 120px;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+.input-prix {
+    border: none;
+    border-bottom: 1px solid green;
+}
+
+.compte-info-each {
+    font-size: 24px;
+    margin-top: 40px;
+    color: green;
+}
+
+.btn-compte {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    padding: 8px;
+    margin-bottom: 11px;
+}
+      
+.btn-compte:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+      
+.btn-compte:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.btn-adresse {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    padding: 8px;
+}
+      
+.btn-adresse:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+      
+.btn-adresse:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.btn-delete-address {
+    background-color: rgb(230, 175, 175);;
+    color: rgb(116, 56, 56);
+    border: 1px solid rgb(128, 0, 0);
+    border-radius: 4px;
+    color: rgb(128, 0, 0);
+    width: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    padding: 8px;
+    margin-left: 55%;
+}
+      
+.btn-delete-address:hover {
+    background-color: rgb(172, 87, 87);
+    color: rgb(235, 193, 193);
+}
+      
+.btn-delete-address:active {
+    background-color: rgb(110, 64, 64);
+    color: rgb(235, 193, 193);
+    box-shadow:0 0 1em rgb(233, 187, 187);
+}
+
+.profil-carte {
+    background-color: rgb(228, 241, 216);
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 48%;
+    display: inline-block;
+    float: right;
+    margin-right: 77px;
+    margin-top: -350px;
+    margin-bottom: 29px;
+}
+
+.divCard {
+    padding: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.btn-nouvelle-carte {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 190px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    padding: 8px;
+}
+      
+.btn-nouvelle-carte:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+      
+.btn-nouvelle-carte:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.btn-carte-ajout {
+    background-color: rgb(200, 230, 175);;
+    color: rgb(56, 116, 56);
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    width: 190px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    padding: 8px;
+}
+      
+.btn-carte-ajout:hover {
+    background-color: rgb(104, 172, 87);
+    color: rgb(226, 235, 193);
+}
+      
+.btn-carte-ajout:active {
+    background-color: rgb(73, 110, 64);
+    color: rgb(226, 235, 193);
+    box-shadow:0 0 1em rgb(187, 233, 187);
+}
+
+.carte-label {
+    color: rgb(99, 134, 99);
+    display: inline-block;
+    width: 160px;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+.info-carte {
+    font-size: 20px;
+    color: rgb(87, 116, 84);
+}
+
+.carte-info-detail {
+    color: rgb(28, 90, 28);
+    font-size: 23px;
+}
+
+.divCard:not(:last-child) {
+    border-bottom: 1px solid green;
+}
+
+.btn-delete-card {
+    background-color: rgb(230, 202, 175);;
+    border: 1px solid rgb(128, 0, 0);
+    border-radius: 4px;
+    color: rgb(116, 65, 56);
+    width: 190px;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    padding: 8px;
+}
+      
+.btn-delete-card:hover {
+    background-color: rgb(172, 132, 87);
+    color: rgb(235, 217, 193);
+}
+      
+.btn-delete-card:active {
+    background-color: rgb(110, 64, 64);
+    color: rgb(235, 224, 193);
+    box-shadow:0 0 1em rgb(233, 198, 187);
+}
+.divCard {
+    padding: 20px;
+    margin: -1px;
+}
+.divCard:not(:last-child) {
+    border-bottom: 1px solid green;
+}
+
+.FormCard {
+    display: inline-flex;
+}
+
+.btnAddCard {
+    width: 100px;
+    margin: 10px;
+}
+
+.dateCard {
+    width: 50px;
+}
+
+.compte-abo {
+    color: rgb(54, 97, 54);
+    font-size: 19px;
+}
